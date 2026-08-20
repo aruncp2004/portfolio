@@ -3,18 +3,22 @@ import { Link } from 'react-router-dom';
 import { getClassificationLabel, getClassificationClass } from '../../data/projects';
 
 export default function ProjectCard({ project }) {
-  const { id, title, category, classification, description, tags, gradient, accent, liveUrl } = project;
+  const { id, title, category, classification, description, tags, image, accent, liveUrl } = project;
   return (
     <div className="card rounded-2xl overflow-hidden group">
-      <div className={`relative h-40 sm:h-48 bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
-        <div className="absolute inset-0 opacity-40"
-          style={{ backgroundImage: `radial-gradient(circle at 30% 40%, ${accent}50 0%, transparent 60%)` }} />
-        <div className="absolute inset-0 opacity-[0.06]"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)`,
-            backgroundSize: '28px 28px',
-          }} />
-        <span className="relative z-10 font-display font-semibold text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-white/80 text-gray-700 shadow-sm">
+      <div className="relative h-40 sm:h-48 overflow-hidden bg-slate-800">
+        <img
+          src={image}
+          alt={title}
+          loading="lazy"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
+          onError={(e) => {
+            e.target.style.display = 'none';
+            e.target.parentElement.style.background = `linear-gradient(135deg, ${accent}30, ${accent}10)`;
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+        <span className="absolute bottom-3 left-3 z-10 font-display font-semibold text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-white/80 text-gray-700 shadow-sm">
           {category}
         </span>
       </div>
