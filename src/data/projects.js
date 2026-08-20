@@ -76,17 +76,6 @@ export const projects = [
     accent: '#4f46e5',
     liveUrl: 'https://nexamart-self.vercel.app',
   },
-  {
-    id: 'velciti',
-    title: 'Velciti Consulting Engineers',
-    category: 'Engineering / B2B',
-    classification: 'experience',
-    description: 'Developed and maintained a responsive business website for a geotechnical engineering consulting firm as part of professional experience.',
-    tags: ['HTML/CSS/JS', 'cPanel', 'Analytics'],
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80',
-    accent: '#d97706',
-    liveUrl: 'https://velciti.com',
-  },
 ];
 
 export const getClassificationLabel = (type) => {
