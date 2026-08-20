@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, ExternalLink, Check, ChevronRight } from 'lucide-react';
-import { getCaseStudy } from '../data/caseStudies';
+import { getCaseStudy } from '../data/CaseStudies';
 import { getClassificationLabel, getClassificationClass } from '../data/projects';
 
 export default function CaseStudy() {
