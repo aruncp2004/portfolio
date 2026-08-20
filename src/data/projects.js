@@ -8,7 +8,7 @@ export const projects = [
     tags: ['React', 'Web App', 'CRM'],
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
     accent: '#7c3aed',
-    liveUrl: 'https://clinic-crm-demo.vercel.app',
+    liveUrl: 'https://arun-cliniccrm.vercel.app',
   },
   {
     id: 'flow-erp',
@@ -19,7 +19,7 @@ export const projects = [
     tags: ['React', 'Web App', 'ERP'],
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80',
     accent: '#2563eb',
-    liveUrl: 'https://flow-erp-demo.vercel.app',
+    liveUrl: 'https://flow-erp-lovat-nine.vercel.app',
   },
   {
     id: 'bright-smile-dental',
@@ -29,8 +29,8 @@ export const projects = [
     description: 'A modern dental clinic website focused on treatment discovery, trust and appointment enquiries.',
     tags: ['React', 'Website', 'Healthcare'],
     image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80',
-    accent: '#0d9488',
-    liveUrl: null,
+    accent: '#2563eb',
+    liveUrl: 'https://brightsmile-dental-vert.vercel.app',
   },
   {
     id: 'dermacare-clinic',
@@ -41,7 +41,7 @@ export const projects = [
     tags: ['React', 'Website', 'Healthcare'],
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80',
     accent: '#e11d48',
-    liveUrl: null,
+    liveUrl: 'https://dermacare-clinic-8jlr.vercel.app',
   },
   {
     id: 'medipoint-health',
@@ -63,7 +63,7 @@ export const projects = [
     tags: ['React', 'Website', 'Restaurant'],
     image: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80',
     accent: '#d97706',
-    liveUrl: null,
+    liveUrl: 'https://spice-garden-sigma.vercel.app',
   },
   {
     id: 'nexamart',
@@ -74,7 +74,7 @@ export const projects = [
     tags: ['React', 'E-Commerce', 'Web App'],
     image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&q=80',
     accent: '#4f46e5',
-    liveUrl: null,
+    liveUrl: 'https://nexamart-self.vercel.app',
   },
   {
     id: 'velciti',
