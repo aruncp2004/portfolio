@@ -21,7 +21,7 @@ export default function About() {
           <div className="w-full max-w-sm mx-auto lg:max-w-none">
             <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden card">
               <img
-                src="/images/profile.jpg"
+                src="/images/profile.jpeg"
                 alt="Arun Kumar"
                 className="w-full h-full object-cover object-center"
                 onError={(e) => {
@@ -34,7 +34,7 @@ export default function About() {
                 style={{ background: 'linear-gradient(135deg, rgba(124,58,237,0.2) 0%, rgba(167,139,250,0.1) 100%)' }}>
                 <span className="font-display font-bold text-7xl gradient-text">AK</span>
                 <p className="text-white/25 text-xs mt-3 tracking-widest uppercase">
-                  Add photo to<br />public/images/profile.jpg
+                  Add photo to<br />public/images/profile.jpeg
                 </p>
               </div>
             </div>
