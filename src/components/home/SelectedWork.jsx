@@ -16,7 +16,7 @@ export default function SelectedWork() {
           <SectionHeader eyebrow="Selected Work" title="Projects & Concepts"
             subtitle="Website concepts and professional experience across healthcare and business web development." />
           <Link to="/work" className="flex items-center gap-1.5 text-sm font-semibold text-violet-400 hover:text-violet-300 transition-colors shrink-0 sm:mt-8 sm:-mb-14">
-            View all <ArrowRight size={14} />
+            View all 8 projects <ArrowRight size={14} />
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
